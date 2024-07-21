@@ -1,0 +1,84 @@
+{
+    // "workbench.colorCustomizations" используется для настройки редактора vs code.
+    "workbench.colorCustomizations": {
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4",
+        "editor.selectionBackground": "#264F78",
+        "editor.lineHighlightBackground": "#2A2A2A"
+    },
+    // "editor.tokenColorCustomizations" нужен соответственно для персонализации кода
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Keywords",
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#FF6188"
+                }
+            },
+            {
+                "name": "Built-in Functions",
+                "scope": "support.function",
+                "settings": {
+                    "foreground": "#A9DC76"
+                }
+            },
+            {
+                "name": "String",
+                "scope": "string",
+                "settings": {
+                    "foreground": "#FFD866"
+                }
+            },
+            {
+                "name": "Comment",
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#808080"
+                }
+            },
+            {
+                "name": "Function",
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#FC9867"
+                }
+            },
+            {
+                "name": "Class",
+                "scope": "entity.name.type.class",
+                "settings": {
+                    "foreground": "#AB9DF2"
+                }
+            },
+            {
+                "name": "Variable",
+                "scope": "variable.other",
+                "settings": {
+                    "foreground": "#78DCE8"
+                }
+            },
+            {
+                "name": "Number",
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#FF6188"
+                }
+            },
+            {
+                "name": "Operator",
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#D4D4D4"
+                }
+            },
+            {
+                "name": "Decorator",
+                "scope": "entity.name.function.decorator",
+                "settings": {
+                    "foreground": "#A9DC76"
+                }
+            }
+        ]
+    }
+}
